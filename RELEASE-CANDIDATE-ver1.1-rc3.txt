@@ -1,0 +1,8 @@
+JAKTLAGSAPPEN ver1.1-rc3
+Bas: ver1.1-rc2.
+Korrigering:
+- Genomförda jakter skrivs nu direkt till Supabase innan vyn hämtas om.
+- Appen visar inte längre lyckad sparning innan Supabase har bekräftat skrivningen.
+- Vid fel visas Supabase-felet och den lokala posten ersätter inte molndatan.
+- Befintlig funktionalitet är i övrigt oförändrad.
+Ingen ny SQL behövs.
